@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "StillWatching",
+    "Version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "css": ["style.css"],
+            "js": ["content.js"]
+        }
+    ]
+}
